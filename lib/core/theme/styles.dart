@@ -19,5 +19,25 @@ class TextStyles {
     fontWeight: FontWeightHelper.medium,
     color: ColorsManager.darkBlue,
   );
+  static TextStyle font18WhiteRegular = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.white,
+  );
+  static TextStyle font18BlackRegular = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.black,
+  );
+  static TextStyle font100WhiteRegular = TextStyle(
+    fontSize: 100.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: Colors.white,
+  );
+  static TextStyle font24WhiteBold = TextStyle(
+    fontSize: 24.sp,
+    fontWeight: FontWeightHelper.bold,
+    color: Colors.white,
+  );
 }
 //font24BlueBold
