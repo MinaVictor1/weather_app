@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:weather_app/core/theme/styles.dart';
 
@@ -18,10 +19,14 @@ class TempretureDegree extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        SvgPicture.asset(icon),
+        SvgPicture.asset(
+          icon,
+          width: 40.w,
+          height: 40.h,
+        ),
         Text(degreeType, style: TextStyles.font18WhiteRegular),
         Text("|", style: TextStyles.font18WhiteRegular),
-        Text("$degree km/h", style: TextStyles.font18WhiteRegular),
+        Text(degree, style: TextStyles.font18WhiteRegular),
       ],
     );
   }
