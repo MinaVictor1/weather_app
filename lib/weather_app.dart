@@ -13,7 +13,7 @@ class WeatherApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(414, 896),
+      designSize: const Size(415, 897),
       minTextAdapt: true,
       child: MaterialApp(
         title: "Weather App",
