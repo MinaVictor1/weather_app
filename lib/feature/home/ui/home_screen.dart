@@ -1,13 +1,17 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:weather_app/core/helper/spacing.dart';
 import 'package:weather_app/core/theme/styles.dart';
 import 'package:weather_app/core/widgets/text_button.dart';
+import 'package:weather_app/feature/home/data/models/weather_response.dart';
 import 'package:weather_app/feature/home/ui/widgets/container_with_data.dart';
 import 'package:weather_app/feature/home/ui/widgets/icon_and_dropdown_button.dart';
+import 'package:weather_app/feature/onboarding/widgets/get_weather_bloc_listener.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  final WeatherResponse weatherResponse;
+  const HomeScreen({super.key, required this.weatherResponse});
 
   @override
   Widget build(BuildContext context) {
@@ -31,12 +35,21 @@ class HomeScreen extends StatelessWidget {
                     heightSpace(50),
                     const IconAndDropDownButton(),
                     heightSpace(50),
-                    Image.asset(
-                      "assets/pic/homeimage.png",
+                    CachedNetworkImage(
+                      imageUrl: weatherResponse.current!.condition!.icon!,
                       width: 250.w,
                       height: 170.h,
+                      placeholder: (context, url) =>
+                          const CircularProgressIndicator(),
+                      errorWidget: (context, url, error) => Image.asset(
+                        "assets/pic/homeimage.png",
+                        width: 250.w,
+                        height: 170.h,
+                      ),
                     ),
-                    const ContainerWithData(),
+                    ContainerWithData(
+                      weatherResponse: weatherResponse,
+                    ),
                     heightSpace(20),
                     AppTextButton(
                         buttonText: "Forecast report",
@@ -44,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                         backgroundColor: Colors.white,
                         borderRadius: 15,
                         buttonWidth: 300.w,
-                        onPressed: () {})
+                        onPressed: () {}),
                   ],
                 ),
               ),
