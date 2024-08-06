@@ -115,13 +115,13 @@ Map<String, dynamic> _$ConditionToJson(Condition instance) => <String, dynamic>{
     };
 
 Forecast _$ForecastFromJson(Map<String, dynamic> json) => Forecast(
-      forecastDay: (json['forecastDay'] as List<dynamic>?)
+      forecastday: (json['forecastday'] as List<dynamic>?)
           ?.map((e) => ForecastDay.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
 Map<String, dynamic> _$ForecastToJson(Forecast instance) => <String, dynamic>{
-      'forecastDay': instance.forecastDay,
+      'forecastday': instance.forecastday,
     };
 
 ForecastDay _$ForecastDayFromJson(Map<String, dynamic> json) => ForecastDay(

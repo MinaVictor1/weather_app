@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/core/di/dependency_injection.dart';
 import 'package:weather_app/core/routing/routes.dart';
+import 'package:weather_app/feature/forecast/forecast.dart';
 import 'package:weather_app/feature/home/data/models/weather_response.dart';
 import 'package:weather_app/feature/home/logic/cubit/get_weather_cubit.dart';
 import 'package:weather_app/feature/home/ui/home_screen.dart';
@@ -20,6 +21,12 @@ class AppRouter {
       case Routes.homeScreen:
         return MaterialPageRoute(
           builder: (_) => HomeScreen(
+            weatherResponse: arguments as WeatherResponse,
+          ),
+        );
+      case Routes.forcastScreen:
+        return MaterialPageRoute(
+          builder: (_) => ForcastWeather(
             weatherResponse: arguments as WeatherResponse,
           ),
         );

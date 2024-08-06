@@ -139,9 +139,10 @@ class Condition {
 
 @JsonSerializable()
 class Forecast {
-  final List<ForecastDay>? forecastDay;
+  @JsonKey(name: 'forecastday')
+  final List<ForecastDay>? forecastday;
 
-  Forecast({this.forecastDay});
+  Forecast({this.forecastday});
 
   factory Forecast.fromJson(Map<String, dynamic> json) =>
       _$ForecastFromJson(json);
