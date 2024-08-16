@@ -2,16 +2,6 @@
   <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
 </p>
 <h1 align="center">🌦️ WEATHER_APP 🌧️</h1>
-<p align="center">
-    <em>HTTP error 401 for prompt <code>slogan</code></em>
-</p>
-
-<p align="center">
-	<img src="https://img.shields.io/github/license/MinaVictor1/weather_app?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/MinaVictor1/weather_app?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/MinaVictor1/weather_app?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/MinaVictor1/weather_app?style=flat&color=0080ff" alt="repo-language-count">
-</p>
 
 <p align="center">
 	<em>Developed with the software and tools below:</em>
@@ -83,6 +73,10 @@
     │   │       └── widgets
     │   ├── main.dart
     │   └── weather_app.dart
+
+```
+
+---
 
 
 
