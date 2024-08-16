@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+  <img src="![image](https://github.com/user-attachments/assets/c5f64c8c-d088-4afc-a547-7e7bd45e912f)" width="100" />
 </p>
 <h1 align="center">🌦️ WEATHER_APP 🌧️</h1>
 <p align="center">
@@ -110,7 +110,7 @@ cd weather_app
 
 3. Install the dependencies:
 
-sh
+```sh
 pub get
 
 
