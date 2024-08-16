@@ -30,21 +30,6 @@
 </p>
 <hr>
 
-##  Quick Links
-
-> - [ Api](#-overview)
-> - [ Features](#-features)
-> - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Running weather_app](#-running-weather_app)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
-
 ---
 
 ##  Overview
