@@ -84,60 +84,93 @@
     │   ├── main.dart
     │   └── weather_app.dart
 
-🚀 Getting Started
-🛠️ Requirements
+
+
+## 🚀 Getting Started
+
+***🛠️ Requirements***
+
 Ensure you have the following dependencies installed on your system:
 
-Dart: version x.y.z
-📦 Installation
-Clone the weather_app repository:
+* **Dart**: version x.y.z
+
+###  📦 Installation
+
+1. Clone the weather_app repository:
+
 sh
-Copy code
 git clone https://github.com/MinaVictor1/weather_app
-Change to the project directory:
+
+
+2. Change to the project directory:
+
 sh
-Copy code
 cd weather_app
-Install the dependencies:
+
+
+3. Install the dependencies:
+
 sh
-Copy code
 pub get
-▶️ Running weather_app
+
+
+###  ▶️ Running weather_app
+
 Use the following command to run weather_app:
 
 sh
-Copy code
 dart main.dart
-✅ Tests
+
+
+###  ✅ Tests
+
 To execute tests, run:
 
 sh
-Copy code
 dart test
-🤝 Contributing
+
+
+---
+
+---
+
+##  Contributing
+
 Contributions are welcome! Here are several ways you can contribute:
 
-Submit Pull Requests: Review open PRs, and submit your own PRs.
-Join the Discussions: Share your insights, provide feedback, or ask questions.
-Report Issues: Submit bugs found or log feature requests for weather_app.
+- **[Submit Pull Requests](https://github.com/MinaVictor1/weather_app/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/MinaVictor1/weather_app/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/MinaVictor1/weather_app/issues)**: Submit bugs found or log feature requests for Weather_app.
+
 <details closed>
-    <summary>📝 Contributing Guidelines</summary>
-Fork the Repository: Start by forking the project repository to your GitHub account.
-Clone Locally: Clone the forked repository to your local machine using a Git client.
+    <summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   
 sh
-Copy code
-git clone https://github.com/MinaVictor1/weather_app
-Create a New Branch: Always work on a new branch, giving it a descriptive name.
+   git clone https://github.com/MinaVictor1/weather_app
+
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   
 sh
-Copy code
-git checkout -b new-feature-x
-Make Your Changes: Develop and test your changes locally.
-Commit Your Changes: Commit with a clear message describing your updates.
+   git checkout -b new-feature-x
+
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   
 sh
-Copy code
-git commit -m 'Implemented new feature x.'
-Push to GitHub: Push the changes to your forked repository.
+   git commit -m 'Implemented new feature x.'
+
+6. **Push to GitHub**: Push the changes to your forked repository.
+   
 sh
-Copy code
-git push origin new-feature-x
-Submit a Pull Request: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+   git push origin new-feature-x
+
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+Once your PR is reviewed and approved, it will be merged into the main branch.
+
+</details>
+
+---
