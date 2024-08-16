@@ -39,7 +39,9 @@
 
 ##  User interface
 
-HTTP error 401 for prompt `features`
+<a href="[https://www.weatherapi.com/" class="text-button](https://www.figma.com/design/clnxevTYmScID4c7FaSFG2/Weather-Forecast-App-(Community)?node-id=0-1&t=7KhnkSD9Q5PvjPy0-1)">UI</a>
+
+![image](https://github.com/user-attachments/assets/e1a461c5-db3b-438e-8a51-ea99942813e0)
 
 ---
 
@@ -47,131 +49,27 @@ HTTP error 401 for prompt `features`
 
 ```sh
 └── weather_app/
-    ├── README.md
-    ├── analysis_options.yaml
-    ├── android
-    │   ├── .gitignore
-    │   ├── app
-    │   │   ├── build.gradle
-    │   │   └── src
-    │   │       ├── debug
-    │   │       │   └── AndroidManifest.xml
-    │   │       ├── main
-    │   │       │   ├── AndroidManifest.xml
-    │   │       │   ├── kotlin
-    │   │       │   └── res
-    │   │       └── profile
-    │   │           └── AndroidManifest.xml
-    │   ├── build.gradle
-    │   ├── gradle
-    │   │   └── wrapper
-    │   │       └── gradle-wrapper.properties
-    │   ├── gradle.properties
-    │   └── settings.gradle
     ├── assets
     │   ├── icon
-    │   │   ├── hum.svg
-    │   │   ├── temp.svg
-    │   │   └── windy.svg
+    │	├── svg
     │   └── pic
-    │       ├── home screen background.png
-    │       ├── homeimage.png
-    │       ├── image android 12+.png
-    │       └── onboarding image.png
-    ├── devtools_options.yaml
     ├── flutter_native_splash.yaml
-    ├── ios
-    │   ├── .gitignore
-    │   ├── Flutter
-    │   │   ├── AppFrameworkInfo.plist
-    │   │   ├── Debug.xcconfig
-    │   │   └── Release.xcconfig
-    │   ├── Runner
-    │   │   ├── AppDelegate.swift
-    │   │   ├── Assets.xcassets
-    │   │   │   ├── AppIcon.appiconset
-    │   │   │   │   ├── Contents.json
-    │   │   │   │   ├── Icon-App-1024x1024@1x.png
-    │   │   │   │   ├── Icon-App-20x20@1x.png
-    │   │   │   │   ├── Icon-App-20x20@2x.png
-    │   │   │   │   ├── Icon-App-20x20@3x.png
-    │   │   │   │   ├── Icon-App-29x29@1x.png
-    │   │   │   │   ├── Icon-App-29x29@2x.png
-    │   │   │   │   ├── Icon-App-29x29@3x.png
-    │   │   │   │   ├── Icon-App-40x40@1x.png
-    │   │   │   │   ├── Icon-App-40x40@2x.png
-    │   │   │   │   ├── Icon-App-40x40@3x.png
-    │   │   │   │   ├── Icon-App-60x60@2x.png
-    │   │   │   │   ├── Icon-App-60x60@3x.png
-    │   │   │   │   ├── Icon-App-76x76@1x.png
-    │   │   │   │   ├── Icon-App-76x76@2x.png
-    │   │   │   │   └── Icon-App-83.5x83.5@2x.png
-    │   │   │   ├── LaunchBackground.imageset
-    │   │   │   │   ├── Contents.json
-    │   │   │   │   └── background.png
-    │   │   │   └── LaunchImage.imageset
-    │   │   │       ├── Contents.json
-    │   │   │       ├── LaunchImage.png
-    │   │   │       ├── LaunchImage@2x.png
-    │   │   │       ├── LaunchImage@3x.png
-    │   │   │       └── README.md
-    │   │   ├── Base.lproj
-    │   │   │   ├── LaunchScreen.storyboard
-    │   │   │   └── Main.storyboard
-    │   │   ├── Info.plist
-    │   │   └── Runner-Bridging-Header.h
-    │   ├── Runner.xcodeproj
-    │   │   ├── project.pbxproj
-    │   │   ├── project.xcworkspace
-    │   │   │   ├── contents.xcworkspacedata
-    │   │   │   └── xcshareddata
-    │   │   │       ├── IDEWorkspaceChecks.plist
-    │   │   │       └── WorkspaceSettings.xcsettings
-    │   │   └── xcshareddata
-    │   │       └── xcschemes
-    │   │           └── Runner.xcscheme
-    │   ├── Runner.xcworkspace
-    │   │   ├── contents.xcworkspacedata
-    │   │   └── xcshareddata
-    │   │       ├── IDEWorkspaceChecks.plist
-    │   │       └── WorkspaceSettings.xcsettings
-    │   └── RunnerTests
-    │       └── RunnerTests.swift
     ├── lib
     │   ├── core
     │   │   ├── di
-    │   │   │   └── dependency_injection.dart
+    │   │   │   └── dependency_injection
     │   │   ├── helper
-    │   │   │   ├── extention.dart
-    │   │   │   └── spacing.dart
     │   │   ├── networking
-    │   │   │   ├── api_constant.dart
-    │   │   │   ├── api_error_handler.dart
-    │   │   │   ├── api_error_model.dart
-    │   │   │   ├── api_error_model.g.dart
-    │   │   │   ├── api_result.dart
-    │   │   │   ├── api_result.freezed.dart
-    │   │   │   ├── api_service.dart
-    │   │   │   ├── api_service.g.dart
-    │   │   │   └── dio_factory.dart
     │   │   ├── routing
-    │   │   │   ├── app_router.dart
-    │   │   │   └── routes.dart
     │   │   ├── theme
-    │   │   │   ├── colors.dart
-    │   │   │   ├── font_weight.dart
-    │   │   │   └── styles.dart
+    │   │   │   ├── colors
+    │   │   │   ├── font_weight
+    │   │   │   └── styles
     │   │   └── widgets
-    │   │       └── text_button.dart
     │   ├── feature
     │   │   ├── forecast
-    │   │   │   ├── forecast.dart
+    │   │   │   ├── forecast_ui
     │   │   │   └── widgets
-    │   │   │       ├── custom_app_bar.dart
-    │   │   │       ├── dayinfo.dart
-    │   │   │       ├── todaydate.dart
-    │   │   │       ├── todayinfo.dart
-    │   │   │       └── todayinfoitem.dart
     │   │   ├── home
     │   │   │   ├── data
     │   │   │   │   ├── models
@@ -179,114 +77,13 @@ HTTP error 401 for prompt `features`
     │   │   │   ├── logic
     │   │   │   │   └── cubit
     │   │   │   └── ui
-    │   │   │       ├── home_screen.dart
+    │   │   │       ├── home_screen_ui
     │   │   │       └── widgets
     │   │   └── onboarding
-    │   │       ├── onboarding.dart
+    │   │       ├── onboarding_ui
     │   │       └── widgets
-    │   │           ├── get_weather_bloc_listener.dart
-    │   │           └── onboarding_text.dart
     │   ├── main.dart
     │   └── weather_app.dart
-    ├── linux
-    │   ├── .gitignore
-    │   ├── CMakeLists.txt
-    │   ├── flutter
-    │   │   ├── CMakeLists.txt
-    │   │   ├── generated_plugin_registrant.cc
-    │   │   ├── generated_plugin_registrant.h
-    │   │   └── generated_plugins.cmake
-    │   ├── main.cc
-    │   ├── my_application.cc
-    │   └── my_application.h
-    ├── macos
-    │   ├── .gitignore
-    │   ├── Flutter
-    │   │   ├── Flutter-Debug.xcconfig
-    │   │   ├── Flutter-Release.xcconfig
-    │   │   └── GeneratedPluginRegistrant.swift
-    │   ├── Runner
-    │   │   ├── AppDelegate.swift
-    │   │   ├── Assets.xcassets
-    │   │   │   └── AppIcon.appiconset
-    │   │   │       ├── Contents.json
-    │   │   │       ├── app_icon_1024.png
-    │   │   │       ├── app_icon_128.png
-    │   │   │       ├── app_icon_16.png
-    │   │   │       ├── app_icon_256.png
-    │   │   │       ├── app_icon_32.png
-    │   │   │       ├── app_icon_512.png
-    │   │   │       └── app_icon_64.png
-    │   │   ├── Base.lproj
-    │   │   │   └── MainMenu.xib
-    │   │   ├── Configs
-    │   │   │   ├── AppInfo.xcconfig
-    │   │   │   ├── Debug.xcconfig
-    │   │   │   ├── Release.xcconfig
-    │   │   │   └── Warnings.xcconfig
-    │   │   ├── DebugProfile.entitlements
-    │   │   ├── Info.plist
-    │   │   ├── MainFlutterWindow.swift
-    │   │   └── Release.entitlements
-    │   ├── Runner.xcodeproj
-    │   │   ├── project.pbxproj
-    │   │   ├── project.xcworkspace
-    │   │   │   └── xcshareddata
-    │   │   │       └── IDEWorkspaceChecks.plist
-    │   │   └── xcshareddata
-    │   │       └── xcschemes
-    │   │           └── Runner.xcscheme
-    │   ├── Runner.xcworkspace
-    │   │   ├── contents.xcworkspacedata
-    │   │   └── xcshareddata
-    │   │       └── IDEWorkspaceChecks.plist
-    │   └── RunnerTests
-    │       └── RunnerTests.swift
-    ├── pubspec.lock
-    ├── pubspec.yaml
-    ├── test
-    │   └── widget_test.dart
-    ├── web
-    │   ├── favicon.png
-    │   ├── icons
-    │   │   ├── Icon-192.png
-    │   │   ├── Icon-512.png
-    │   │   ├── Icon-maskable-192.png
-    │   │   └── Icon-maskable-512.png
-    │   ├── index.html
-    │   ├── manifest.json
-    │   └── splash
-    │       └── img
-    │           ├── dark-1x.png
-    │           ├── dark-2x.png
-    │           ├── dark-3x.png
-    │           ├── dark-4x.png
-    │           ├── light-1x.png
-    │           ├── light-2x.png
-    │           ├── light-3x.png
-    │           └── light-4x.png
-    └── windows
-        ├── .gitignore
-        ├── CMakeLists.txt
-        ├── flutter
-        │   ├── CMakeLists.txt
-        │   ├── generated_plugin_registrant.cc
-        │   ├── generated_plugin_registrant.h
-        │   └── generated_plugins.cmake
-        └── runner
-            ├── CMakeLists.txt
-            ├── Runner.rc
-            ├── flutter_window.cpp
-            ├── flutter_window.h
-            ├── main.cpp
-            ├── resource.h
-            ├── resources
-            │   └── app_icon.ico
-            ├── runner.exe.manifest
-            ├── utils.cpp
-            ├── utils.h
-            ├── win32_window.cpp
-            └── win32_window.h
 ```
 
 ---
