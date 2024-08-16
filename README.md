@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/02ec8541-253e-4f0b-bda3-6b999b725f15)
-" width="100" />
+  ![weather](https://github.com/user-attachments/assets/e48ab092-7d17-4c6b-ac33-cd47c573cc34)
+
 </p>
 <h1 align="center">🌦️ WEATHER_APP 🌧️</h1>
 <p align="center">
