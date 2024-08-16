@@ -32,13 +32,12 @@
 
 ---
 
-##  Overview
+##  APi
 
-https://www.weatherapi.com/ `overview`
-
+  <a href="https://www.weatherapi.com/" class="text-button">Free Weather API - WeatherAPI.com</a>
 ---
 
-##  Features
+##  User interface
 
 HTTP error 401 for prompt `features`
 
